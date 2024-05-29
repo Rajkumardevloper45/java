@@ -1,0 +1,27 @@
+import java.util.*;
+class square
+{
+private double sideLength;
+public Square (double sideLength)
+{
+this.sideLength=sideLength;
+}
+public double calculateArea()
+{
+return sideLength*sideLength;
+}
+public double calculatePerimeter
+{
+return 4*sideLength;
+}
+public class Main
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the side:");
+double sideLength=Scanner.nextdouble();
+square square=new square(sideLength);
+double area=square.calculatePerimeter();
+
+System.out.println("Area of square:"= + area);
+System.out.println("perimeter of the square:"+ Perimeter);
+}}
